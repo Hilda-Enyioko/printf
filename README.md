@@ -90,3 +90,4 @@ Unknown:[%r]
 
 ```
 
+Test file(main.c) is located in the test folder
