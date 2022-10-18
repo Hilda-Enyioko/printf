@@ -20,7 +20,7 @@ int print_char(va_list arg)
 int print_str(va_list arg)
 {
   int i;
-  char *str;
+  char *str = va_arg(arg, char*);
   i = 0;
   while (str[i] != \0)
   {
