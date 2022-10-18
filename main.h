@@ -15,6 +15,6 @@ int print_identifiers(char spc, va_list arg);
 typedef struct identifierStruct
 {
 char *identifier;
-int (*function)va_list;
+int (*function)(va_list);
 }identifierStruct;
 #endif
