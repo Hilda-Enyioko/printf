@@ -14,12 +14,13 @@ int print_char(va_list arg)
 
 /**
  * print_str - writes a string to stdout(1)
- * @str: string to be printed
- * Return: 
+ * @arg: argument
+ * Return: number of characters printex
  */
-int print_str(char *str)
+int print_str(va_list arg)
 {
   int i;
+  char *str;
   i = 0;
   while (str[i] != \0)
   {
