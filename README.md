@@ -1,11 +1,11 @@
 _printf function created by: Hilda Enyioko and Isaiah Talabi for ALX Software Engineering program(Cohort 9)
 
-##DESCRIPTION
+##**DESCRIPTION**
 
 _printf function imitates printf function.
 It produces output according to a format.
 
-##Test
+##**Test**
 
 Below is a test file for the _printf function, with expected output:
 
