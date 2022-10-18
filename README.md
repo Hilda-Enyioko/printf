@@ -10,7 +10,9 @@ It produces output according to a format.
 Below is a test file for the _printf function, with expected output:
 
 
-```#include <limits.h>
+```
+
+#include <limits.h>
 #include <stdio.h>
 #include "main.h"
 
@@ -53,10 +55,15 @@ int main(void)
     _printf("Unknown:[%r]\n");
     printf("Unknown:[%r]\n");
     return (0);
-}```
+}
+
+```
+
 
 Expected Output:
-```Let's try to printf a simple sentence.
+```
+
+Let's try to printf a simple sentence.
 Let's try to printf a simple sentence.
 Length:[39, 39]
 Length:[39, 39]
@@ -79,5 +86,7 @@ Percent:[%]
 Len:[12]
 Len:[12]
 Unknown:[%r]
-Unknown:[%r]```
+Unknown:[%r]
+
+```
 
