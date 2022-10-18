@@ -38,7 +38,7 @@ if (identres == -1 || identres != 0)
 i++;
 if (identres > 0)
 res = res + identres;
-if (identifier == 0)
+if (identres == 0)
 {
 _putchar('%');
 res++;
