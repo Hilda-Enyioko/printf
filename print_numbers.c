@@ -9,9 +9,8 @@
 int print_int(va_list arg)
 {
 int n = va_arg(arg, int);
-int digit;
 int i;
-unsigined int divisor = 1, res;
+unsigned int divisor = 1, digit, res;
 if (n < 0)
 {
 _putchar('-');
