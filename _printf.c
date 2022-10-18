@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _printf - prints and input into the standard output
+ * _printf - produces output according to a format
  * @format: the format string
  * Return: number of bytes printed
  */
