@@ -16,7 +16,7 @@ identifierStruct funcs[]{
 {"i", print_int},
 {NULL, NULL}
 };
-for (i = 0; funcs[i].identifier != \0; i++)
+for (i = 0; funcs[i].identifier != '\0'; i++)
 {
 if (funcs[i].identifier == spc)
 return(funcs[i].function(arg));
