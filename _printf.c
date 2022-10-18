@@ -18,6 +18,7 @@
 *	va_start(ap, format);
 *
 *	if (!format || (format[0] == '%' && !format[1]))/* checking for NULL char */
+/**
 *		return (-1);
 *	if (format[0] == '%' && format[1] == ' ' && !format[2])
 *		return (-1);
@@ -32,6 +33,7 @@
 *		start = p;
 *		p++;
 *		while (get_flag(p, &params)) /* while char at p is flag character */
+/**
 *		{
 *			p++; /* next character */
 *		}
