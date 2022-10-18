@@ -43,4 +43,7 @@ if (identifier == 0)
 _putchar('%');
 res++;
 }
+}
+va_end(arg);
 return (res);
+}
