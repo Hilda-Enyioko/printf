@@ -12,7 +12,7 @@ int print_str(va_list arg);
 int print_int(va_list arg);
 int print_identifiers(char spc, va_list arg);
 
-typedef identifierStruct
+typedef struct identifierStruct
 {
 char *identifier;
 int (*function)va_list;
