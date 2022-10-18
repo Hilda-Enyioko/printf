@@ -22,7 +22,7 @@ int print_str(va_list arg)
   int i;
   char *str = va_arg(arg, char*);
   i = 0;
-  while (str[i] != \0)
+  while (str[i] != '\0')
   {
    _putchar(str[i]);
    i++;
