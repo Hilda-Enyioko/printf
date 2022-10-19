@@ -8,7 +8,7 @@
  */
 int print_char(va_list arg)
 {
-  return (_putchar(va_arg(arg, int)));
+	return (_putchar(va_arg(arg, int)));
 }
 
 
@@ -19,13 +19,14 @@ int print_char(va_list arg)
  */
 int print_str(va_list arg)
 {
-  int i;
-  char *str = va_arg(arg, char*);
-  i = 0;
-  while (str[i] != '\0')
-  {
-   _putchar(str[i]);
-   i++;
-  }
-return(i);
+	int i;
+	char *str = va_arg(arg, char*);
+
+	i = 0;
+	while (str[i] != '\0')
+	{
+		_putchar(str[i]);
+		i++;
+	}
+	return (i);
 }

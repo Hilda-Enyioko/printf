@@ -19,7 +19,7 @@ identifierStruct funcs[]{
 for (i = 0; funcs[i].identifier != '\0'; i++)
 {
 if (funcs[i].identifier == spc)
-return(funcs[i].function(arg));
+return (funcs[i].function(arg));
 }
 return (0);
 }
