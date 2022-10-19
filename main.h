@@ -16,5 +16,5 @@ typedef struct identifierStruct
 {                                                                   
 char *identifier;                                                   
 int (*function)(va_list);                                           
-}identifierStruct;                                                  
+} identifierStruct;                                                  
 #endif
